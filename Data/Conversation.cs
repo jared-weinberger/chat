@@ -5,5 +5,5 @@ namespace Data;
 public class Conversation
 {
     [Required]
-    public IEnumerable<User> Participants { get; set; }
+    public IEnumerable<User> Participants { get; set; } = [];
 }

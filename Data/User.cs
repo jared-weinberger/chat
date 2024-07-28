@@ -8,7 +8,7 @@ public class User
     public Guid Id { get; set; }
 
     [Required]
-    public string Handle { get; set; }
+    public required string Handle { get; set; }
 
     public string? GivenName { get; set; }
 
