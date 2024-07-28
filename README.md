@@ -13,3 +13,4 @@
 5. As a Friend, I want to see my list of friends so I can look upon them with beatific benevolence.
 6. As a Friend, I want to message my friends so that we can discuss the deep things of life, love, and the universe.
 7. As a Friend, I want to end my friendship with a friend, so that my resplendent existence might not be tainted by one whose virtual presence I do not wish to suffer.
+8. As a Rando, I want to sign up to become a User.

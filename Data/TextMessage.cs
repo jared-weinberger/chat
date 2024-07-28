@@ -5,5 +5,5 @@ namespace Data;
 public class TextMessage : Message
 {
     [Required]
-    public string Contents { get; set; }
+    public required string Contents { get; set; }
 }
