@@ -4,6 +4,9 @@ namespace Data;
 
 public class Conversation
 {
+    public Guid Id { get; set; }
+    [Key]
     [Required]
-    public IEnumerable<User> Participants { get; set; } = [];
+    public virtual IEnumerable<User> Participants { get; set; } = [];
+    public virtual IEnumerable<Message> Messages { get; set; } = [];
 }

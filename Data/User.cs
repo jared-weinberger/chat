@@ -7,6 +7,7 @@ public class User
     [Required]
     public Guid Id { get; set; }
 
+    [Key]
     [Required]
     public required string Handle { get; set; }
 
@@ -15,4 +16,6 @@ public class User
     public string? FamilyName { get; set; }
 
     public virtual IEnumerable<Conversation> Conversations { get; set; } = [];
+
+    public byte[]? PasswordHash { get; set; }
 }
